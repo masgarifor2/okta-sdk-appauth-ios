@@ -126,6 +126,7 @@ Alternatively, you can create a dictionary with the required values:
 let config = [
   "issuer": "https://{yourOktaDomain}/oauth2/default",
   "clientId": "{clientID}",
+  "clientSecret": "{clientSecret}"
   "redirectUri": "{redirectUri}",
   "logoutRedirectUri": "{logoutRedirectUri}",
   "scopes": "openid profile offline_access",
@@ -133,7 +134,6 @@ let config = [
   "login_hint": "username@email.com"
 ]
 ```
-
 ## API Reference
 
 ### signInWithBrowser
