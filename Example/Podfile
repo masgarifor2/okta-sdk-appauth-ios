@@ -3,7 +3,7 @@ use_frameworks!
 
 def shared_pods
     pod 'OktaAuthWithClientSecret'
-    pod 'OktaAuthWithClientSecret', :path => '../'
+    pod 'OktaAuthWithClientSecret', :path => '../', :commit => '8f16eee3d67f87114c4a93a926b110d08e6b37de'
 end
 
 target 'Okta_Example' do
